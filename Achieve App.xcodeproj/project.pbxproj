@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9D152942D0A245700FF79CA /* amplify.yml in Resources */ = {isa = PBXBuildFile; fileRef = C9D152932D0A244B00FF79CA /* amplify.yml */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C94788472D0232F600E0F0FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C94788362D0232F500E0F0FE /* Achieve App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Achieve App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94788462D0232F600E0F0FE /* Achieve AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Achieve AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94788502D0232F600E0F0FE /* Achieve AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Achieve AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D152932D0A244B00FF79CA /* amplify.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = amplify.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -94,6 +99,7 @@
 		C947882D2D0232F500E0F0FE = {
 			isa = PBXGroup;
 			children = (
+				C9D152932D0A244B00FF79CA /* amplify.yml */,
 				C94788382D0232F500E0F0FE /* Achieve App */,
 				C94788492D0232F600E0F0FE /* Achieve AppTests */,
 				C94788532D0232F600E0F0FE /* Achieve AppUITests */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D152942D0A245700FF79CA /* amplify.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
